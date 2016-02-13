@@ -235,7 +235,9 @@ function create_config( )
       "badword",
       "chat",
       "hello2",
-      "info"},
+      "info",
+      "feedback",
+      "welecome"},
     sudo_users = {122810240},
     disabled_channels = {}
   }
