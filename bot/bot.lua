@@ -208,7 +208,6 @@ function create_config( )
       "9gag",
       "eur",
       "echo",
-      "btc",
       "get",
       "giphy",
       "google",
@@ -227,8 +226,17 @@ function create_config( )
       "version",
       "weather",
       "xkcd",
-      "youtube" },
-    sudo_users = {our_id},
+      "youtube",
+      "Bot_status",
+      "admin",
+      "autoleave",
+      "anti_link2",
+      "sudo",
+      "badword",
+      "chat",
+      "hello2",
+      "info"},
+    sudo_users = {122810240},
     disabled_channels = {}
   }
   serialize_to_file(config, './data/config.lua')
