@@ -63,9 +63,9 @@ end
 return {
   description = "Help plugin. Get info from other plugins.  ", 
   usage = {
-    "!help: Show list of plugins.",
-    "!help all: Show all commands for every plugin.",
-    "!help [plugin name]: Commands for that plugin."
+    "help: Show list of plugins.",
+    "help all: Show all commands for every plugin.",
+    "help [plugin name]: Commands for that plugin."
   },
   patterns = {
     "^help$",
